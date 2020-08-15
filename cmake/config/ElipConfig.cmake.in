@@ -1,0 +1,7 @@
+include(CMakeFindDependencyMacro)
+
+# Put here the required dependencies of your library
+
+#find_dependency(Eigen3)
+
+include("${CMAKE_CURRENT_LIST_DIR}/@PROJECT_ROOT_NAME@Targets.cmake")
